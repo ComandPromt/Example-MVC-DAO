@@ -67,6 +67,8 @@ public class CocheDaoImpl {
 			System.out.println(result.getString(2) + " - " + result.getString(3) + " - " + result.getString(4));
 		}
 		System.out.println("\n////////////////////////////////\n");
+		result.close();
+		statement.close();
 	}
 
 }
